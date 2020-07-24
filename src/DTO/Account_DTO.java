@@ -40,15 +40,12 @@ public class Account_DTO implements Serializable{
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
-
-	public String getEmail() {
-		return email;
-	}
-
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	public String getEmail() {
+		return email;
+	}
 	public String getPassWord() {
 		return passWord;
 	}

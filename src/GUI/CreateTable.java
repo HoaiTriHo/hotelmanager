@@ -2,7 +2,7 @@ package GUI;
 
 public class CreateTable {
 	public void createRowForm() {
-		for(int i = 0; i<60;i++) {
+		for(int i = 0; i<40;i++) {
 			System.out.print((char)95);
 		}
 	}
@@ -11,6 +11,6 @@ public class CreateTable {
 		return "\t\t\t\t";
 	}
 	public String createSpaceSmall() {
-		return "\t\t\t";
+		return "\t";
 	}
 }

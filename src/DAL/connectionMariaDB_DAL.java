@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import DTO.Account_DTO;
 
 public class connectionMariaDB_DAL {
-	public Connection getConnectionToDB() {
+	public static Connection getConnectionToDB() {
 		String classDriver = "org.mariadb.jdbc.Driver";
 		String connectionUrl="jdbc:mariadb://localhost:3306/hotel_management_app_console";
 		String user ="root";
@@ -21,8 +21,5 @@ public class connectionMariaDB_DAL {
 			e.printStackTrace();
 		}
 		return null;
-	}
-	public static void main(String[] args) throws SQLException {
-		
 	}
 }
